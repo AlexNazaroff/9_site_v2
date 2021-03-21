@@ -4,5 +4,5 @@ urlpatterns = [
 #    path('', views)
 #path('', views.index)
     path('', views.index),
-    path('about', views.index),
+    path('about', views.about),
 ]

@@ -7,8 +7,8 @@ from django.http import HttpResponse
 def index(request):
     return render(request, '<h4>Site Test SeleniumWebdriver</h4>'),
 
-def index(request):
-    return HttpResponse('<h4>Site Test SeleniumWebdriver</h4>'),
+def about(request):
+    return render('<h4>About SeleniumWebdriver</h4>'),
 
 
 # python manage.py runserver
